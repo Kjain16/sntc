@@ -25,20 +25,17 @@ def robotics(request):
 def sae(request):
 	return render(request, 'sae.html', {})
 
-def sae_baja(request):
-	return render(request, 'sae-baja.html', {})
+def trident(request):
+	return render(request, 'trident.html', {})
 
-def vocowsa(request):
-	return render(request, 'vocowsa.html', {})
+def vocowa(request):
+	return render(request, 'vocowa.html', {})
 
 def auv(request):
 	return render(request, 'auv.html', {})
 
 def cef(request):
 	return render(request, 'cef.html', {})
-
-def technex(request):
-	return render(request, 'technex.html', {})
 
 def app(request):
 	return HttpResponseRedirect("https://play.google.com/store/apps/details?id=in.shriyansh.questify&hl=en")
